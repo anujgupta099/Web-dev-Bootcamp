@@ -1,0 +1,36 @@
+.abc {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  background: linear-gradient(to top left, #33ccff 0%, #ff99cc 81%);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 30px;
+  top: 0;
+  overflow: auto;
+}
+
+p::before {
+  content: "\260E";
+}
+
+#head {
+  text-align: center;
+  border-radius: 100px;
+  background-color: rgba(173, 125, 20, 0.151);
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+
+.abc:nth-child(9){
+    text-align: center;
+    background: #AAB7B8;
+    font-size: larger;
+    text-decoration: darkslategray;
+}
