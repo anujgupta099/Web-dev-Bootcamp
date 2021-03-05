@@ -1,0 +1,27 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+body {
+  background-color: black;
+}
+
+button {
+  background: black;
+  border: 2px solid yellow;
+  color: yellow;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+}
+
+button:hover {
+  
+box-shadow: 2px 4px 10px 3px orangered;
+
+  transform: translateY(-0.25em);
+  color: orangered;
+  
+}
